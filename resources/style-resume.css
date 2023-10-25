@@ -1,333 +1,323 @@
 /*GENERAL*/
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
-
-
-
 
 /* Extra small devices (phones, 992px and down) */
 @media only screen and (max-width: 992px) {
+  body {
+    background-color: #222222;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: whitesmoke;
+  }
 
-    body {
-        background-color: #222222;
-        padding-left: 10%;
-        padding-right: 10%;
-        color: whitesmoke;
-    }
+  #title {
+    text-decoration: none;
+    color: white;
+  }
 
-    #title {
-        text-decoration: none;
-        color: white;
-    }
+  /*HAMBURGER MENU*/
+  .hamburger--icon {
+    color: whitesmoke;
+    margin-left: auto;
+    margin-top: 2%;
+  }
 
-    /*HAMBURGER MENU*/
-    .hamburger--icon {
-        color: whitesmoke;
-        margin-left: auto;
-        margin-top: 2%;
-    }
+  #links {
+    display: none;
+  }
 
-    #links {
-        display: none;
-    }
+  #links > a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
 
-    #links>a {
-        color: whitesmoke;
-        text-decoration: none;
-    }
+  nav {
+    width: auto;
+    padding-top: 5%;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+  }
 
-    nav {
-        width: auto;
-        padding-top: 5%;
-        flex-direction: column;
-        font-family: "Playfair Display", serif;
-    }
+  /*END OF HAMBURGER MENU*/
 
-    /*END OF HAMBURGER MENU*/
+  #icons--desktop {
+    display: none;
+  }
 
-    #icons--desktop {
-        display: none;
-    }
+  #resume--landing {
+    font-family: "Poppins", sans-serif;
+    margin-top: 15%;
+  }
 
-    #resume--landing {
-        font-family: "Poppins", sans-serif;
-        margin-top: 15%;
-    }
+  #text--section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    #text--section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  #tech--icons--desktop {
+    display: none;
+  }
 
+  #tech--icons--mobile {
+    width: 120px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    place-items: center;
+    border: solid 2px whitesmoke;
+    border-radius: 20px;
+    padding: 10%;
+    margin-top: 10%;
+  }
 
-    #tech--icons--desktop {
-        display: none;
-    }
+  #tech--icons--mobile > img {
+    width: 30px;
+    height: 30px;
+  }
 
-    #tech--icons--mobile {
-        width: 120px;
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
-        place-items: center;
-        border: solid 2px whitesmoke;
-        border-radius: 20px;
-        padding: 10%;
-        margin-top: 10%;
-    }
+  #text--section > p {
+    margin-top: 6%;
+    width: 70%;
+  }
 
-    #tech--icons--mobile>img {
-        width: 30px;
-        height: 30px;
-    }
+  #text--section > div > a > button {
+    margin-top: 10%;
+    background: #fa4a2a;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 5%;
+    font-family: "Poppins", sans-serif;
+  }
 
-    #text--section>p {
-        margin-top: 6%;
-        width: 70%;
-    }
+  #contact {
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
 
-    #text--section>div>a>button {
-        margin-top: 10%;
-        background: #fa4a2a;
-        border: none;
-        border-radius: 30px;
-        color: white;
-        padding: 5%;
-        font-family: "Poppins", sans-serif;
-    }
+  /*FOOTER*/
 
-    #contact {
-        margin-top: 10%;
-        flex-direction: column;
-        align-items: center;
-        font-family: "Poppins", sans-serif;
-    }
+  footer {
+    margin-top: 30%;
+    margin-bottom: 7%;
+    font-family: "Poppins", sans-serif;
+  }
 
+  footer > div {
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+    gap: 20px;
+  }
 
-    /*FOOTER*/
+  footer > div > div {
+    gap: 30px;
+  }
 
-    footer {
-        margin-top: 30%;
-        margin-bottom: 7%;
-        font-family: "Poppins", sans-serif;
-    }
+  footer > div > div > a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
 
-    footer>div {
-        flex-direction: column;
-        margin-bottom: 2%;
-        align-items: center;
-        gap: 20px;
-    }
+  #colorpalette {
+    flex-direction: row;
+    gap: 0;
+  }
 
-    footer>div>div {
-        gap: 30px;
-    }
+  #orange {
+    background: #fa4a2a;
+    height: 5px;
+    width: 25%;
+  }
 
-    footer>div>div>a {
-        text-decoration: none;
-        color: whitesmoke;
-    }
+  #blue {
+    background: #2e8fff;
+    height: 5px;
+    width: 25%;
+  }
 
-    #colorpalette {
-        flex-direction: row;
-        gap: 0;
-    }
+  #green {
+    background: #23a103;
+    height: 5px;
+    width: 25%;
+  }
 
-    #orange {
-        background: #fa4a2a;
-        height: 5px;
-        width: 25%;
-    }
-
-    #blue {
-        background: #2e8fff;
-        height: 5px;
-        width: 25%;
-    }
-
-    #green {
-        background: #23a103;
-        height: 5px;
-        width: 25%;
-    }
-
-    #white {
-        background: whitesmoke;
-        height: 5px;
-        width: 25%;
-    }
+  #white {
+    background: whitesmoke;
+    height: 5px;
+    width: 25%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  body {
+    background-color: #222222;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: whitesmoke;
+  }
 
-    body {
-        background-color: #222222;
-        padding-left: 15%;
-        padding-right: 15%;
-        color: whitesmoke;
-    }
+  /*NAVBAR*/
 
-    /*NAVBAR*/
+  .hamburger--icon {
+    display: none;
+  }
 
-    .hamburger--icon {
-        display: none;
-    }
+  #title {
+    text-decoration: none;
+    color: white;
+  }
 
-    #title {
-        text-decoration: none;
-        color: white;
-    }
+  nav {
+    font-family: "Playfair Display", sans-serif;
+    width: auto;
+    padding-top: 5%;
+    align-items: center;
+  }
 
-    nav {
-        font-family: "Playfair Display", sans-serif;
-        width: auto;
-        padding-top: 5%;
-        align-items: center;
-    }
+  #links {
+    margin-left: auto;
+    gap: 50px;
+    padding-top: 1%;
+  }
 
-    #links {
-        margin-left: auto;
-        gap: 50px;
-        padding-top: 1%;
-    }
+  #links > a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
 
-    #links>a {
-        text-decoration: none;
-        color: whitesmoke;
-    }
+  /*ICONS*/
 
-    /*ICONS*/
+  #icons--mobile {
+    display: none;
+  }
 
-    #icons--mobile {
-        display: none;
-    }
+  #icons--desktop {
+    flex-direction: column;
+    width: 50px;
+    gap: 15px;
+  }
 
-    #icons--desktop {
-        flex-direction: column;
-        width: 50px;
-        gap: 15px;
+  #icons--desktop > a > img {
+    width: 30px;
+    height: 30px;
+  }
 
-    }
+  /*END OF ICONS*/
 
-    #icons--desktop>a>img {
-        width: 30px;
-        height: 30px;
-    }
+  #resume--landing {
+    font-family: "Poppins", sans-serif;
+    margin-top: 5%;
+  }
 
-    /*END OF ICONS*/
+  #text--section {
+    margin-left: 10%;
+    flex-direction: column;
+  }
 
-    #resume--landing {
-        font-family: "Poppins", sans-serif;
-        margin-top: 5%;
+  #tech--icons--mobile {
+    display: none;
+  }
 
-    }
+  #tech--icons--desktop {
+    margin-top: 7%;
+    color: white;
+    gap: 20px;
+    border: solid 2px whitesmoke;
+    border-radius: 20px;
+    width: 670px;
+    padding: 10%;
+  }
 
-    #text--section {
-        margin-left: 10%;
-        flex-direction: column;
-    }
+  #tech--icons--desktop > img {
+    width: 50px;
+    height: 50px;
+  }
 
-    #tech--icons--mobile {
-        display: none;
-    }
+  #text--section > p {
+    margin-top: 6%;
+    width: 50%;
+  }
 
-    #tech--icons--desktop {
-        margin-top: 7%;
-        color: white;
-        gap: 20px;
-        border: solid 2px whitesmoke;
-        border-radius: 20px;
-        width: 520px;
-        padding: 10%;
-    }
+  #text--section > div > a > button {
+    margin-top: 3%;
+    margin-right: 3%;
+    background: #fa4a2a;
+    border: none;
+    border-radius: 30px;
+    width: 20%;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Poppins", sans-serif;
+  }
 
-    #tech--icons--desktop>img {
-        width: 50px;
-        height: 50px;
-    }
+  #text--section > div > a > button:hover {
+    cursor: pointer;
+  }
 
-    #text--section>p {
-        margin-top: 6%;
-        width: 50%;
-    }
+  #contact {
+    margin-left: 15%;
+    margin-top: 10%;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
 
-    #text--section>div>a>button {
-        margin-top: 3%;
-        margin-right: 3%;
-        background: #fa4a2a;
-        border: none;
-        border-radius: 30px;
-        width: 20%;
-        color: white;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-family: "Poppins", sans-serif;
-    }
+  /*FOOTER*/
 
-    #text--section>div>a>button:hover {
-        cursor: pointer;
-    }
+  footer {
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-family: "Poppins", sans-serif;
+  }
 
-    #contact {
-        margin-left: 15%;
-        margin-top: 10%;
-        flex-direction: column;
-        font-family: "Poppins", sans-serif;
-    }
+  footer > div {
+    justify-content: space-between;
+    margin-bottom: 2%;
+  }
 
+  footer > div > div {
+    gap: 30px;
+  }
 
-    /*FOOTER*/
+  footer > div > div > a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
 
-    footer {
-        margin-top: 10%;
-        margin-bottom: 7%;
-        font-family: "Poppins", sans-serif;
-    }
+  #orange {
+    background: #fa4a2a;
+    height: 5px;
+    width: 25%;
+  }
 
-    footer>div {
-        justify-content: space-between;
-        margin-bottom: 2%;
-    }
+  #blue {
+    background: #2e8fff;
+    height: 5px;
+    width: 25%;
+  }
 
-    footer>div>div {
-        gap: 30px;
-    }
+  #green {
+    background: #23a103;
+    height: 5px;
+    width: 25%;
+  }
 
-    footer>div>div>a {
-        text-decoration: none;
-        color: whitesmoke;
-    }
-
-    #orange {
-        background: #fa4a2a;
-        height: 5px;
-        width: 25%;
-    }
-
-    #blue {
-        background: #2e8fff;
-        height: 5px;
-        width: 25%;
-    }
-
-    #green {
-        background: #23a103;
-        height: 5px;
-        width: 25%;
-    }
-
-    #white {
-        background: whitesmoke;
-        height: 5px;
-        width: 25%;
-    }
+  #white {
+    background: whitesmoke;
+    height: 5px;
+    width: 25%;
+  }
 }
