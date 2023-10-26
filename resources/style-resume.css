@@ -34,7 +34,7 @@
     display: none;
   }
 
-  #links > a {
+  #links>a {
     color: whitesmoke;
     text-decoration: none;
   }
@@ -79,17 +79,17 @@
     margin-top: 10%;
   }
 
-  #tech--icons--mobile > img {
+  #tech--icons--mobile>img {
     width: 30px;
     height: 30px;
   }
 
-  #text--section > p {
+  #text--section>p {
     margin-top: 6%;
     width: 70%;
   }
 
-  #text--section > div > a > button {
+  #text--section>div>a>button {
     margin-top: 10%;
     background: #fa4a2a;
     border: none;
@@ -114,18 +114,18 @@
     font-family: "Poppins", sans-serif;
   }
 
-  footer > div {
+  footer>div {
     flex-direction: column;
     margin-bottom: 2%;
     align-items: center;
     gap: 20px;
   }
 
-  footer > div > div {
+  footer>div>div {
     gap: 30px;
   }
 
-  footer > div > div > a {
+  footer>div>div>a {
     text-decoration: none;
     color: whitesmoke;
   }
@@ -193,7 +193,7 @@
     padding-top: 1%;
   }
 
-  #links > a {
+  #links>a {
     text-decoration: none;
     color: whitesmoke;
   }
@@ -210,7 +210,7 @@
     gap: 15px;
   }
 
-  #icons--desktop > a > img {
+  #icons--desktop>a>img {
     width: 30px;
     height: 30px;
   }
@@ -234,23 +234,26 @@
   #tech--icons--desktop {
     margin-top: 7%;
     color: white;
-    gap: 22px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     border: solid 2px whitesmoke;
     border-radius: 20px;
     padding: 10%;
+    padding-right: 0;
+    grid-row-gap: 40px;
   }
 
-  #tech--icons--desktop > img {
+  #tech--icons--desktop>img {
     width: 50px;
     height: 50px;
   }
 
-  #text--section > p {
+  #text--section>p {
     margin-top: 6%;
     width: 50%;
   }
 
-  #text--section > div > a > button {
+  #text--section>div>a>button {
     margin-top: 3%;
     margin-right: 3%;
     background: #fa4a2a;
@@ -263,7 +266,7 @@
     font-family: "Poppins", sans-serif;
   }
 
-  #text--section > div > a > button:hover {
+  #text--section>div>a>button:hover {
     cursor: pointer;
   }
 
@@ -282,16 +285,16 @@
     font-family: "Poppins", sans-serif;
   }
 
-  footer > div {
+  footer>div {
     justify-content: space-between;
     margin-bottom: 2%;
   }
 
-  footer > div > div {
+  footer>div>div {
     gap: 30px;
   }
 
-  footer > div > div > a {
+  footer>div>div>a {
     text-decoration: none;
     color: whitesmoke;
   }
